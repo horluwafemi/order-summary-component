@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order summary </title>
+</head>
+   <style>
+         body{
+             border-radius: 10px;
+             background-size: contain;
+             background-repeat: no-repeat;
+             line-height: 1;
+             background-color: hsl(225, 100% , 94%);
+         } 
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 50px, 90px ;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .imagepicture {
+            padding: 30px 0;
+            margin-bottom: 0;
+        }
+        .img{
+            margin: 0 auto 0;
+            width: 500px;
+            padding-bottom: 0;
+            border-radius: 10px;
+        }
+        .text {
+            background-color:white;
+            position: relative; 
+            bottom: 5px; 
+            padding-top: 30px; 
+            margin-top: 0;
+            width: 500px;
+            height: 500px;
+            border-radius: 5px;
+        }
+        .title{
+            margin-top: 10px;
+            padding-top: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            width: 500px;
+        }
+        .othertext{
+            text-align:center;
+        }
+        .paragraph{
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items:center;
+            align-content: space-between;
+            margin: 40px, 90px;
+            flex-wrap:wrap;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #90c4de;
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 400px;
+        }
+        .iconmage{
+            position: relative;
+            top: 18px;
+            width: 50px;
+            height: 40px;
+            padding-left:  10px;
+            padding-right: 5px;
+
+        }
+
+        icons{
+            display: flex;
+        }
+        .change{
+            color: blue;
+            font-weight: 700;
+            padding-right: 10px;
+            text-decoration: underline;
+            margin-right: 30px;
+            
+        }
+       .rate{
+            text-align: center;
+            padding-left:10px; 
+            float: right;
+            
+       }
+
+       .firstrate{
+           position: relative;
+           bottom: 10px;
+       }
+       .pay{
+           text-align: center;
+       }
+       .btn-one{
+           display: inline-block;
+           font-weight: 900;
+           background-color: hsl(245, 75%, 52%);
+           color: #fff;
+           padding:13px 110px;
+           text-decoration: none;
+           border-radius: 10px;
+           margin-bottom: 25px;
+           margin-top: 30px;
+           box-shadow: #90c4de;
+       }
+       .btn-two{
+            color: hsl(224, 23%,55%);
+            text-decoration: none;
+       }
+       a{
+           text-align: center;
+       }
+    </style>
+<body>
+    <div class = "container">
+        <div class ="imagepicture"> 
+            <img class ="img" src="images/illustration-hero.svg"> 
+            <div  class ="text"> 
+            <h1 class ="title"> Order Summary </h1>
+            <div class="othertext">
+                <p class ="paragraph">You can now listen to millions of songs,<br> audiobooks, and podcasts on any device<br> anywhere you like! </p> 
+            </div>
+
+            <div class ="image">
+                <div class ="icons">
+                 <img class= "iconmage" src ="images/icon-music.svg"> 
+                 <div class= "rate">
+                     <p> <strong> Annual Plan</strong></p>
+                     <p class ="firstrate">$59.99/year</p> 
+
+                 </div>
+                </div> 
+                <a class="change" href="#">Change</a>
+            </div>
+            <div class="pay"> 
+                <a class ="btn-one" href="#">Proceed to payment</a>
+                 <div>
+                     <a class ="btn-two" href ="#"> Cancel Order </a>
+                     </div>
+            </div>
+        
+            </div>
+        </div>
+     </div>
+
+    
+</body>
+</html>
